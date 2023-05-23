@@ -8,10 +8,10 @@ const ImageCompare = () => {
   const imageTwoPath = `${basePath}/${imageName}-b.jpg`
 
   return (
-    <div className="image-compare">
+    <div className="image-compare-container">
       <ReactCompareSlider
-        itemOne={<ReactCompareSliderImage src={imageOnePath} alt="Image one" />}
-        itemTwo={<ReactCompareSliderImage src={imageTwoPath} alt="Image two" />}
+        itemOne={<ReactCompareSliderImage src={imageOnePath} alt="Image one" className="image-compare" />}
+        itemTwo={<ReactCompareSliderImage src={imageTwoPath} alt="Image two" className="image-compare" />}
       />
     </div>
   );

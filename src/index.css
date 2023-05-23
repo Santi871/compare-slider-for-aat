@@ -57,8 +57,12 @@ button:focus-visible {
 }
 
 .image-compare {
-  width: 50%;
-  margin: auto;
+  max-height: 90vh;
+  max-width: 120vh;
+}
+
+.image-compare-container {
+  padding: 1rem;
 }
 
 @media (prefers-color-scheme: light) {
